@@ -1,0 +1,350 @@
+/* ///Header */
+.btnHeader {
+  background-color: rgba(215, 254, 175, 0.772);
+  border: none;
+  height: 40px;
+  width: 8%;
+}
+.numberPhone {
+  font-size: 10px;
+}
+.containerBtnCallBack {
+  display: flex;
+  margin-left: 10px;
+}
+
+.text {
+  display: block;
+  width: 200px;
+  padding-top: 5%;
+  padding-right: 5%;
+  background-color: rgb(155, 206, 104);
+  border-radius: 0px 21px 21px 0px;
+}
+.nameCompany {
+  color: #8db92f;
+  font-size: 83px;
+  padding-top: 20px;
+  font-weight: 600;
+  font-family: "Fredoka", sans-serif;
+  margin: 0px 0px;
+}
+.firstBtn {
+  border-radius: 10px 0px 0px 10px;
+  width: 150px;
+}
+.img {
+  background-color: #7cb92f;
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+.imgBtnCallBack {
+  width: 15px;
+  margin-top: 7px;
+}
+.callBack {
+  height: 40px;
+  padding-top: 10px;
+  width: 170px;
+}
+.containerCallBack {
+  border: none;
+  border-radius: 0px 50px 50px 0px;
+  width: 180px;
+  height: 40px;
+}
+.btns {
+  display: flex;
+  flex-wrap: wrap;
+}
+.containerImgHeader {
+  background-color: rgb(155, 206, 104);
+  width: 50px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.Header {
+  margin-left: 20%;
+}
+/*////////*/
+
+/*tablet*/
+@media screen and (max-width: 1100px) {
+  .nameCompany {
+    color: #8db92f;
+    font-size: 65px;
+    padding-top: 20px;
+    font-weight: 600;
+    font-family: "Fredoka", sans-serif;
+    margin: 0px 0px;
+  }
+  .btns {
+    display: flex;
+    flex-direction: column;
+  }
+  .firstBtn {
+    border-radius: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  .containerCallBack {
+    border: none;
+    border-radius: 0px 0px 0px 0px;
+    width: 100%;
+    height: 60px;
+  }
+  .text {
+    width: 34%;
+    background-color: rgb(155, 206, 104);
+    border-radius: 0px 21px 21px 0px;
+  }
+  .containerBtnCallBack {
+    margin-left: 37%;
+    height: 50px;
+  }
+  .containerImgHeader {
+    background-color: rgb(155, 206, 104);
+    padding-top: 5px;
+    width: 53px;
+    border-radius: 20px 0px 0px 20px;
+  }
+}
+
+/*//phone*/
+
+/* ///Footer */
+.Footer {
+  display: flex;
+  flex-direction: row;
+}
+.creativeSpan {
+  color: #bcbcbc;
+  font-size: 10px;
+  text-align: center;
+}
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+.flexRow > a {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #bcbcbc;
+  text-decoration-line: underline;
+  margin-top: 10px;
+  text-decoration: none;
+  margin-left: 25%;
+}
+.dataCreated {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #bcbcbc;
+  margin-top: 10px;
+  text-align: center;
+}
+.titleFooter {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 100px;
+  color: #8db92f;
+  font-family: "Fredoka";
+  font-style: normal;
+  font-size: 40px;
+  border: 1.99708px solid #ffffff;
+}
+.listPagesFooter {
+  padding-top: 10px;
+  list-style-type: none;
+}
+.listPagesFooter > li {
+  padding-top: 5px;
+}
+.containerListPagesFooter {
+  width: 40%;
+  margin-left: 10%;
+  height: 200px;
+}
+.containerListPagesFooter {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+}
+.emailFooter {
+  display: flex;
+  align-content: flex-end;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  font-size: 13px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #3b3b3b;
+  padding-left: 25%;
+}
+.footerNumberPhone {
+  padding-top: 20px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #3b3b3b;
+  padding-left: 38%;
+}
+.btnNetWork {
+  border: none;
+  border-radius: 5px;
+  width: 50px;
+  height: 38px;
+}
+.containerFooterLinksNetworks {
+  margin-top: 20px;
+  margin-left: 10%;
+}
+.itemPagesFooter {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #414141;
+}
+.buttonsNetwork {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20%;
+}
+.buttonsNetwork button {
+  margin-right: 10px;
+}
+
+/* ///phone */
+@media only screen and (max-width: 600px) {
+  .Footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .flexRow > a {
+    margin-left: 10%;
+  }
+  .titleFooter {
+    margin-top: 10px;
+    margin-left: 30%;
+    width: 100px;
+    color: #8db92f;
+    font-family: "Fredoka";
+    font-style: normal;
+    font-size: 40px;
+    border: 1.99708px solid #ffffff;
+  }
+  .btnHeader {
+    background-color: rgba(215, 254, 175, 0.772);
+    border: none;
+    height: 50px;
+    width: 100%;
+  }
+  .Header {
+    margin-left: 0%;
+  }
+  .nameCompany {
+    color: #8db92f;
+    font-size: 65px;
+    padding-top: 20px;
+    font-weight: 600;
+    font-family: "Fredoka", sans-serif;
+    margin: 0px 0px;
+  }
+  .btns {
+    display: flex;
+    flex-direction: column;
+  }
+  .firstBtn {
+    border-radius: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  .containerCallBack {
+    border: none;
+    border-radius: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  .text {
+    display: block;
+    width: 70%;
+    background-color: rgb(155, 206, 104);
+    border-radius: 0px 21px 21px 0px;
+  }
+  .containerBtnCallBack {
+    margin-left: 10%;
+  }
+}
+
+/* ///tablets */
+@media only screen and (min-width: 600px) and (max-width: 1025px) {
+  .btnHeader {
+    background-color: rgba(215, 254, 175, 0.772);
+    border: none;
+    height: 50px;
+    width: 100%;
+  }
+  .Header {
+    margin-left: 0%;
+  }
+  .nameCompany {
+    color: #8db92f;
+    font-size: 65px;
+    padding-top: 20px;
+    font-weight: 600;
+    font-family: "Fredoka", sans-serif;
+    margin: 0px 0px;
+  }
+  .btns {
+    display: flex;
+    flex-direction: column;
+  }
+  .Footer {
+    display: flex;
+    flex-direction: row;
+  }
+  .flexRow > a {
+    margin-left: 10%;
+  }
+  .titleFooter {
+    margin-top: 10px;
+    margin-left: 1%;
+    width: 100px;
+    color: #8db92f;
+    font-family: "Fredoka";
+    font-style: normal;
+    font-size: 40px;
+    border: 1.99708px solid #ffffff;
+  }
+  .containerFooterLinksNetworks {
+    margin-top: 20px;
+    margin-left: 0%;
+  }
+  .containerListPagesFooter {
+    width: 40%;
+    margin-left: 5%;
+    height: 200px;
+  }
+
+  .flexRow > a {
+    margin-left: 20%;
+  }
+  .containerFooterLinksNetworks {
+    margin-top: 20px;
+    margin-right: 5%;
+  }
+}

@@ -1,7 +1,9 @@
-const coll = document.getElementsByClassName("collapsible");
-let i;
+const coll = document.querySelectorAll(".collapsible");
+const btnSend = document.querySelector(".btnSend");
+const inputName = document.querySelector(".inputName");
+const checkPrivacyPolicy = document.querySelector("#checkPrivacyPolicy");
 
-for (i = 0; i < coll.length; i++) {
+for (let i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function () {
     this.classList.toggle("active");
     var content = this.nextElementSibling;
@@ -12,3 +14,14 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+inputName.addEventListener("keydown", (e) => {
+  if (e.key.match(/[0-9]/)) return e.preventDefault();
+});
+
+btnSend.addEventListener("click", () => {
+  if (!checkPrivacyPolicy.checked) return;
+
+  alert(true);
+});
+//
