@@ -1,9 +1,12 @@
 /* ///Header */
 .btnHeader {
-  background-color: rgba(215, 254, 175, 0.772);
   border: none;
   height: 40px;
   width: 8%;
+}
+.backgroundHeader{
+  background-color: rgba(215, 254, 175, 0.772);
+
 }
 .numberPhone {
   font-size: 10px;
@@ -232,6 +235,18 @@
 
 /* ///phone */
 @media only screen and (max-width: 600px) {
+  .emailFooter{
+    padding-right: 45%;
+    margin-top: 10px;
+  }
+  .footerNumberPhone{
+    margin-top: 15px;
+    padding-left: 15%;
+  }
+  .containerFooterLinksNetworks{
+    margin-top: 20px;
+    margin-left: 0%;
+  }
   .Footer {
     display: flex;
     flex-direction: column;
@@ -256,7 +271,7 @@
     width: 100%;
   }
   .Header {
-    margin-left: 0%;
+    margin-left: -1.5%;
   }
   .nameCompany {
     color: #8db92f;
