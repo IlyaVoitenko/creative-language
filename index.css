@@ -42,6 +42,7 @@
   height: 30px;
   margin-left: 5px;
   border-radius: 50%;
+  margin-top: 5px;
 }
 .imgBtnCallBack {
   width: 15px;
@@ -70,6 +71,7 @@
 
 .Header {
   margin-left: 20%;
+  background: #FBFBFB;
 }
 /*////////*/
 
@@ -98,7 +100,10 @@
     height: 60px;
   }
   .text {
-    width: 34%;
+    width: 27%;
+    padding-top: 4%;
+    padding-right:0%;
+    margin-right: 5%;
     background-color: rgb(155, 206, 104);
     border-radius: 0px 21px 21px 0px;
   }
@@ -120,6 +125,8 @@
 .Footer {
   display: flex;
   flex-direction: row;
+  background-color: #FBFBFB;
+  
 }
 .creativeSpan {
   color: #bcbcbc;
@@ -210,6 +217,7 @@
   height: 38px;
 }
 .containerFooterLinksNetworks {
+  background-color: #FBFBFB;
   margin-top: 20px;
   margin-left: 10%;
 }
@@ -250,6 +258,7 @@
   .Footer {
     display: flex;
     flex-direction: column;
+
   }
   .flexRow > a {
     margin-left: 10%;
@@ -296,7 +305,7 @@
   }
   .text {
     display: block;
-    width: 70%;
+    width: 60%;
     background-color: rgb(155, 206, 104);
     border-radius: 0px 21px 21px 0px;
   }

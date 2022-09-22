@@ -46,6 +46,7 @@
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
+  background: #FBFBFB;
 }
 .firstPostRow{
 position: absolute;
@@ -147,13 +148,15 @@ left: 7%;
   top: 1210px;
 }
 #positionFirstNameCountry {
-  display: flex;
-  flex-direction: row;
+  
   position: absolute;
   left: 7%;
 }
 .containerNameCountry {
+  display: flex;
+    flex-direction: row;
   width: 8%;
+  height: 30px;
   background: rgba(255, 255, 255, 0.35);
   backdrop-filter: blur(10px);
   border-radius: 10px;
@@ -203,9 +206,163 @@ left: 7%;
   color: #6d716e;
 }
 @media only screen and (min-width: 600px) and (max-width: 1020px){
+  .listBlogs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+  }
+  .itemBlog {
+    margin-left: 0%;
+    width: 40%;
+    margin-top: 20px;
+  }
+  #positionTitletheFirstBlog {
+    position: absolute;
+    top: 70%;
+    left: 15%;
+  }
+  #positionFirstNameCountry {
 
+    position: absolute;
+    top: 650px;
+    left: 13%;
+    width: 130px;
+  }
+  #positionSecondNameCountry {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 130px;
+    left: 8%;
+    top:950px
+  }
+  #positionThreeNameCountry{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 130px;
+    left: 58%;
+    top:950px
+  }
+  #secondLinePost-1{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 130px;
+    left: 8%;
+    top:1250px
+  }
+  #secondLinePost-2{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 130px;
+    left: 58%;
+    top:1250px
+  }
+  #secondLinePost-3{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 130px;
+    left: 8%;
+    top:1550px
+  }
+  #secondLinePost-4{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 130px;
+    left: 58%;
+    top:1550px
+  }
+
+  #threeLinePost-1{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 130px;
+    left: 8%;
+    top:1830px
+  }
+  #threeLinePost-2{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 130px;
+    left: 58%;
+    top:1830px
+  }
+
+  #threeLinePost-3{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 130px;
+    left: 8%;
+    top:2130px
+  }
+  #threeLinePost-4{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 130px;
+    left: 58%;
+    top:2130px
+  }
+  #fourLinePost-1{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 130px;
+    left: 8%;
+    top:2420px
+  }
+  #fourLinePost-2{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 130px;
+    left: 58%;
+    top:2420px
+  }
+
+  #fourLinePost-3{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 130px;
+    left: 8%;
+    top:2710px
+  }
+  #fourLinePost-4{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 130px;
+    left: 58%;
+    top:2710px
+  }
+  #firstPostLink{
+    width: 82%;
+  }
+  .blogPost{
+    width: 300px;
+    margin-left: 2%;
+  }
 }
+/* //modile  */
 @media only screen and (max-width: 600px) {
+  .containerNameCountry {
+    display: flex;
+    flex-direction: row;
+    width: 8%;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+  }
   #positionSecondNameCountry {
     display: flex;
     flex-direction: row;
@@ -308,10 +465,9 @@ left: 7%;
   .listBlogs {
     display: flex;
     flex-direction: column;
-    background-color: royalblue;
+    margin-right: 5%;;
   }
   .nameCountry{
-    padding-top: 17px;
     padding-left: 10px;
   }
   #positionFirstNameCountry {
@@ -324,7 +480,6 @@ left: 7%;
   }
   .imgFlagCountry {
     margin-left: 5%;
-    padding-bottom: 10px;
     border-radius: 5px;
     width: 30px;
     height: 30px;
