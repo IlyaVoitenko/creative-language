@@ -6,8 +6,56 @@
   width: 66%;
   margin-top: 5px;
 }
+.imgScan{
+  width: 12px;
+  height: 10px;
+  padding-top: 17px;
+  padding-right: 5px;
+}
+.containerCreatedInfoPost{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.amoundScan{
+  display: flex;
+  flex-direction: row;
+}
+.scans{
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #a3abb0;
+}
+.containerInfoAboutPost{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+.greenTextColor{
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #757676;
+}
 .firstblogPost {
   margin-top: 5px;
+}
+.imgNetworks {
+  width: 10px;
+  height: 11px;
+}
+.btnImgNetworks {
+  border: none;
+  background-color: #ffffff;
+}
+.containerBtnsNetworks >*{ 
+margin-left: 10px;
 }
 .mainTitlePost {
   font-family: "Gilroy";
@@ -31,7 +79,88 @@
   line-height: 27px;
   color: #464646;
 }
-
+.containerNameCountry {
+  position: absolute;
+  top: 3630px;
+}
+.containerRecommendedPosts {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+  margin-bottom: 3%;
+}
+.blogPost {
+  width: 200px;
+}
+.listRecommendedPosts {
+  display: flex;
+  flex-direction: row;
+}
+.anotherPosts {
+  width: 20%;
+}
+.itemBlog {
+  margin-left: 5%;
+  margin-top: 20px;
+}
+.imgBlog {
+  border-radius: 20px;
+}
+.imgFlagCountry {
+  margin-top: 2%;
+  height: 25px;
+  margin-left: 5%;
+  border-radius: 10px;
+}
+.containerNameCountry {
+  display: flex;
+  flex-direction: row;
+  width: 8%;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+.nameCountry {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  padding-top: 5px;
+  padding-left: 10px;
+  /* identical to box height, or 154% */
+  color: #1d1d1d;
+}
+.dataCteatedPost {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #a3abb0;
+}
+a {
+  text-decoration: none;
+}
+.titleAntherBlog {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #2e3230;
+}
+.titleRecommendedPosts {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 27px;
+  color: #2e3230;
+}
 .containerNameCountry {
   display: flex;
   flex-direction: row;
@@ -62,7 +191,7 @@
   width: 100%;
   border-radius: 20px;
 }
-.position {
+.positionMailFlag {
   position: absolute;
   top: 30%;
   left: 20%;
@@ -102,3 +231,525 @@
 #firstPostLink {
   width: 82%;
 }
+
+@media only screen and (min-width: 600px) and (max-width: 1020px) {
+  .containerRecommendedPosts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 3%;
+  }
+  .blogPost {
+    width: 150px;
+  }
+  .positionMailFlag {
+    position: absolute;
+    top: 48%;
+    left: 20%;
+    width: 120px;
+  }
+  .containerNameCountry {
+    width: 120px;
+  }
+  #recommendedPost-1 {
+    position: absolute;
+    top: 4200px;
+  }
+  #recommendedPost-2 {
+    position: absolute;
+    top: 4200px;
+  }
+  #recommendedPost-3 {
+    position: absolute;
+    top: 4200px;
+  }
+  #recommendedPost-4 {
+    position: absolute;
+    top: 4200px;
+  }
+}
+/* //modile  */
+@media only screen and (max-width: 600px) {
+  .containerRecommendedPosts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 3%;
+  }
+  .blogPost {
+    width: 100%;
+  }
+  .imgBlog {
+    height: 150px;
+    width: 240px;
+  }
+  .imgPost {
+    width: 100%;
+  }
+
+  .containerNameCountry {
+    width: 80px;
+    height: 20px;
+  }
+  .imgFlagCountry {
+    margin-top: 2%;
+    height: 15px;
+    margin-left: 5%;
+    border-radius: 10px;
+  }
+  .linkBlog {
+    width: 80%;
+  }
+  .nameCountry {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 20px;
+    padding-top: 1px;
+    padding-left: 10px;
+    /* identical to box height, or 154% */
+    color: #1d1d1d;
+  }
+  .titleAntherBlog {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #2e3230;
+  }
+  .listRecommendedPosts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen  and (max-device-height: 1368px){
+
+  .positionMailFlag {
+    position: absolute;
+    top: 42%;
+    left: 20%;
+  }
+  #recommendedPost-1 {
+    position: absolute;
+    /* top: 6600px; */
+    top: 294%;
+    left: 7%;
+  }
+  #recommendedPost-2 {
+    position: absolute;
+    /* top: 6800px; */
+    top: 294%;
+    left: 32%;
+  }
+  #recommendedPost-3 {
+    position: absolute;
+    /* top: 7060px; */
+    top: 294%;
+    left: 56%;
+  }
+  #recommendedPost-4 {
+    position: absolute;
+    /* top: 7320px; */
+    top: 294%;
+    left: 80%;
+  }
+}
+@media screen  and (max-device-height: 1180px){
+
+  .positionMailFlag {
+    position: absolute;
+    top: 47%;
+    left: 20%;
+  }
+  #recommendedPost-1 {
+    position: absolute;
+    /* top: 6600px; */
+    top: 358%;
+    left: 7%;
+  }
+  #recommendedPost-2 {
+    position: absolute;
+    /* top: 6800px; */
+    top: 358%;
+    left: 32%;
+  }
+  #recommendedPost-3 {
+    position: absolute;
+    /* top: 7060px; */
+    top: 358%;
+    left: 56%;
+  }
+  #recommendedPost-4 {
+    position: absolute;
+    /* top: 7320px; */
+    top: 358%;
+    left: 80%;
+  }
+}
+@media screen  and (max-device-height: 1024px){
+
+  .positionMailFlag {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+  }
+  #recommendedPost-1 {
+    position: absolute;
+    /* top: 6600px; */
+    top: 412%;
+    left: 7%;
+  }
+  #recommendedPost-2 {
+    position: absolute;
+    /* top: 6800px; */
+    top: 412%;
+    left: 32%;
+  }
+  #recommendedPost-3 {
+    position: absolute;
+    /* top: 7060px; */
+    top: 412%;
+    left: 56%;
+  }
+  #recommendedPost-4 {
+    position: absolute;
+    /* top: 7320px; */
+    top: 412%;
+    left: 80%;
+  }
+}
+@media screen  and (max-device-height: 915px){
+
+  .positionMailFlag {
+    position: absolute;
+    top: 79%;
+    left: 20%;
+  }
+  #recommendedPost-1 {
+    position: absolute;
+    /* top: 6600px; */
+    top: 655%;
+    left: 16%;
+  }
+  #recommendedPost-2 {
+    position: absolute;
+    /* top: 6800px; */
+    top: 684%;
+    left: 16%;
+  }
+  #recommendedPost-3 {
+    position: absolute;
+    /* top: 7060px; */
+    top: 712%;
+    left: 16%;
+  }
+  #recommendedPost-4 {
+    position: absolute;
+    /* top: 7320px; */
+    top: 740%;
+    left: 16%;
+  }
+}
+@media screen  and (max-device-height: 896px){
+  .positionMailFlag {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+  }
+  #recommendedPost-1 {
+    position: absolute;
+    /* top: 6600px; */
+    top: 666%;
+    left: 16%;
+  }
+  #recommendedPost-2 {
+    position: absolute;
+    /* top: 6800px; */
+    top: 695%;
+    left: 16%;
+  }
+  #recommendedPost-3 {
+    position: absolute;
+    /* top: 7060px; */
+    top: 724%;
+    left: 16%;
+  }
+  #recommendedPost-4 {
+    position: absolute;
+    /* top: 7320px; */
+    top: 753%;
+    left: 16%;
+  }
+}
+@media screen  and (max-device-height: 851px){
+  .positionMailFlag {
+    position: absolute;
+    top: 85%;
+    left: 20%;
+  }
+  #recommendedPost-1 {
+    position: absolute;
+    /* top: 6600px; */
+    top: 719%;
+    left: 16%;
+  }
+  #recommendedPost-2 {
+    position: absolute;
+    /* top: 6800px; */
+    top: 749%;
+    left: 16%;
+  }
+  #recommendedPost-3 {
+    position: absolute;
+    /* top: 7060px; */
+    top: 780%;
+    left: 16%;
+  }
+  #recommendedPost-4 {
+    position: absolute;
+    /* top: 7320px; */
+    top: 811%;
+    left: 16%;
+  }
+}
+@media screen  and (max-device-height: 844px){
+  .positionMailFlag {
+    position: absolute;
+    top: 85%;
+    left: 20%;
+  }
+  #recommendedPost-1 {
+    position: absolute;
+    /* top: 6600px; */
+    top: 724%;
+    left: 16%;
+  }
+  #recommendedPost-2 {
+    position: absolute;
+    /* top: 6800px; */
+    top: 755%;
+    left: 16%;
+  }
+  #recommendedPost-3 {
+    position: absolute;
+    /* top: 7060px; */
+    top: 786%;
+    left: 16%;
+  }
+  #recommendedPost-4 {
+    position: absolute;
+    /* top: 7320px; */
+    top: 817%;
+    left: 16%;
+  }
+}
+@media screen  and (min-device-height: 799px) and (min-device-width:1270px){
+
+  .positionMailFlag {
+    position: absolute;
+    top: 28%;
+    left: 20%;
+  }
+  #recommendedPost-1 {
+    position: absolute;
+    /* top: 6600px; */
+    top: 486%;
+    left: 19%;
+  }
+  #recommendedPost-2 {
+    position: absolute;
+    /* top: 6800px; */
+    top: 486%;
+    left: 37%;
+  }
+  #recommendedPost-3 {
+    position: absolute;
+    /* top: 7060px; */
+    top: 486%;
+    left: 54%;
+  }
+  #recommendedPost-4 {
+    position: absolute;
+    /* top: 7320px; */
+    top: 486%;
+    left: 72%;
+  }
+}
+
+@media screen and (max-device-height: 740px){ 
+  .positionMailFlag {
+    position: absolute;
+    top: 97%;
+    left: 20%;
+  }
+  #recommendedPost-1 {
+    position: absolute;
+    /* top: 6600px; */
+    top: 892%;
+    left: 16%;
+  }
+  #recommendedPost-2 {
+    position: absolute;
+    /* top: 6800px; */
+    top: 927%;
+    left: 16%;
+  }
+  #recommendedPost-3 {
+    position: absolute;
+    /* top: 7060px; */
+    top: 962%;
+    left: 16%;
+  }
+  #recommendedPost-4 {
+    position: absolute;
+    /* top: 7320px; */
+    top: 997%;
+    left: 16%;
+  }
+}
+@media screen  and (max-device-height: 728px){
+
+  .positionMailFlag {
+    position: absolute;
+    top: 89%;
+    left: 20%;
+  }
+  #recommendedPost-1 {
+    position: absolute;
+    /* top: 6600px; */
+    top: 706%;
+    left: 16%;
+  }
+  #recommendedPost-2 {
+    position: absolute;
+    /* top: 6800px; */
+    top: 742%;
+    left: 16%;
+  }
+  #recommendedPost-3 {
+    position: absolute;
+    /* top: 7060px; */
+    top: 778%;
+    left: 16%;
+  }
+  #recommendedPost-4 {
+    position: absolute;
+    /* top: 7320px; */
+    top: 814%;
+    left: 16%;
+  }
+}
+@media screen and (max-device-height: 667px){ 
+  .positionMailFlag {
+    position: absolute;
+    top: 108%;
+    left: 20%;
+  }
+  #recommendedPost-1 {
+    position: absolute;
+    /* top: 6600px; */
+    top: 958%;
+    left: 16%;
+  }
+  #recommendedPost-2 {
+    position: absolute;
+    /* top: 6800px; */
+    top: 997%;
+    left: 16%;
+  }
+  #recommendedPost-3 {
+    position: absolute;
+    /* top: 7060px; */
+    top: 1037%;
+    left: 16%;
+  }
+  #recommendedPost-4 {
+    position: absolute;
+    /* top: 7320px; */
+    top: 1076%;
+    left: 16%;
+  }
+}
+@media screen and (max-device-height: 653px){ 
+  .imgBlog{
+    height: 101px;
+    width: 177px;
+  }
+  .positionMailFlag {
+    position: absolute;
+    top: 113%;
+    left: 20%;
+  }
+  #recommendedPost-1 {
+    position: absolute;
+    /* top: 6600px; */
+    top: 1195%;
+    left: 18%;
+  }
+  #recommendedPost-2 {
+    position: absolute;
+    /* top: 6800px; */
+    top: 1230%;
+    left: 16%;
+  }
+  #recommendedPost-3 {
+    position: absolute;
+    /* top: 7060px; */
+    top: 1266%;
+    left: 16%;
+  }
+  #recommendedPost-4 {
+    position: absolute;
+    /* top: 7320px; */
+    top: 1301%;
+    left: 16%;
+  }
+}
+@media screen and (max-device-height: 600px){ 
+  .containerRecommendedPosts{
+width: 100%;
+  }
+  .imgBlog{
+    height: 100%;
+    width: 100%;
+  }
+  .imgPost{
+    width: 100%;
+  }
+  .positionMailFlag {
+    position: absolute;
+    top: 93%;
+    left: 20%;
+    width: 120px;
+  }
+  #recommendedPost-1 {
+    position: absolute;
+    top:697%;
+    left: 7%;
+  }
+  #recommendedPost-2 {
+    position: absolute;
+    top:697%;
+    left: 32%;
+  }
+  #recommendedPost-3 {
+    position: absolute;
+    top:697%;
+    left: 55%;
+  }
+  #recommendedPost-4 {
+    position: absolute;
+    top:697%;
+    left: 80%;
+  }
+}
+

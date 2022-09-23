@@ -120,7 +120,16 @@
 }
 
 /*//phone*/
-
+@media only screen and (max-width: 600px) {
+  .text {
+    display: block;
+    width: 200px;
+    padding-top: 6%;
+    padding-right: 5%;
+    background-color: rgb(155, 206, 104);
+    border-radius: 0px 21px 21px 0px;
+  }
+}
 /* ///Footer */
 .Footer {
   display: flex;
@@ -252,7 +261,7 @@
     padding-left: 15%;
   }
   .containerFooterLinksNetworks{
-    margin-top: 20px;
+    margin-top: 15%;
     margin-left: 0%;
   }
   .Footer {
