@@ -88,6 +88,13 @@ left: 7%;
 .imgBlog {
   border-radius: 20px;
 }
+.btnChangeLanguage{
+  background-color: #ffffff;
+  border: none;
+}
+.imgChangeLanguage{
+  border-radius: 6px;
+}
 .imgFlagCountry {
   margin-top: 2%;
   height: 25px;

@@ -1,0 +1,1 @@
+const listBlogs = [{title:"" , imgBlog:"", imgFlag :"" ,dataCreatedPost:"" , idStylePost:"" }]
