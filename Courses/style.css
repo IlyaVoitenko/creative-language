@@ -1,0 +1,448 @@
+body {
+  margin: 0;
+}
+.bacgroundImg {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.37);
+}
+.containerContext {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.mainText {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+}
+#firstCard {
+  position: absolute;
+  top: 480px;
+  margin-bottom: 400px;
+}
+#secondCard{
+    margin-top: 400px;
+}
+
+#positionHeader {
+  top: 5%;
+  position: absolute;
+  background-color: none;
+}
+.nameLesson {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  color: #363734;
+}
+.priceLesson {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+
+  color: #363734;
+}
+.signUp {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #7cb92f;
+}
+.levelsEducation {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #dedede;
+  border-radius: 14px;
+  justify-content: space-around;
+  margin-top: 2%;
+}
+.listLevelsCourses {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #383838;
+  margin-top: 2%;
+}
+.inputsClient {
+  width: 25%;
+  border: none;
+  background: #f3f3f3;
+  border-radius: 13px;
+  height: 40px;
+  padding-left: 2%;
+}
+.containerFields {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.containerSignUp {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.79);
+  box-shadow: 0px 0px 40px -6px rgba(0, 0, 0, 0.09);
+  backdrop-filter: blur(12.5px);
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 2%;
+}
+.titleSignUp {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 56px;
+  text-align: center;
+  color: #7cb92f;
+}
+.textQuestions {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 28px;
+  text-align: center;
+  color: #363734;
+}
+.btnSend {
+  background: linear-gradient(180deg, #a6e25a 0%, #7cb92f 100%);
+  border-radius: 13px;
+  width: 222px;
+  color: white;
+  border: none;
+  margin-top: 2%;
+}
+.containerCheckBox {
+  width: 85%;
+  margin-top: 2%;
+}
+#linkPrivacyPolicy {
+  color: #7cb92f;
+}
+.courses {
+  background: #f3f3f3;
+  border-radius: 13px;
+  height: 48px;
+  margin-top: 2%;
+  width: 65%;
+  border: none;
+  padding-left: 2%;
+}
+.textLabelForm {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #676767;
+}
+.Level {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #7cb92f;
+}
+.nameLevel {
+  height: 93px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info {
+  padding-top: 8px;
+}
+.property {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background: rgba(255, 255, 255, 0.79);
+  box-shadow: 0px 0px 40px -6px rgba(0, 0, 0, 0.09);
+  backdrop-filter: blur(12.5px);
+  border-radius: 20px;
+  width: 60%;
+}
+.cardInfo {
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+}
+.nameCard {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  width: 50%;
+  flex: start;
+}
+.daysWeek {
+  display: flex;
+  flex-direction: row;
+}
+.infoLesson {
+  display: flex;
+  flex-direction: column;
+}
+.scheduleLesson {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: #363734;
+}
+.contextLesson {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+
+  color: #383838;
+}
+.dayWeek {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29.2349px;
+  line-height: 36px;
+  color: #7cb92f;
+  background: #ffffff;
+  border: 0.790134px solid #f3f3f3;
+  box-shadow: 0px 1.58027px 23.704px -4.7408px rgba(0, 0, 0, 0.09);
+  border-radius: 13.4323px;
+  width: 120.1px;
+  height: 80.59px;
+  padding-top: 20%;
+}
+.timeLesson {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #3c3c3c;
+}
+.backgroundHeader {
+  background: rgba(255, 255, 255, 0.51);
+  backdrop-filter: blur(5.5px);
+}
+.Header {
+  background: none;
+}
+.imgHeader {
+  width: 86%;
+}
+.textTitleCourses {
+  position: absolute;
+
+  top: 30%;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 87px;
+  text-align: center;
+  color: white;
+}
+.btnCourses {
+  width: 150px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.13);
+  border-radius: 12px;
+  border: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.cccc {
+  display: flex;
+  justify-content: center;
+}
+.containerBtnsCourses {
+  position: absolute;
+  top: 45%;
+  display: flex;
+}
+/* ///tablets */
+@media only screen and (min-width: 600px) and (max-width: 1020px) {
+    .containerBtnsCourses {
+        position: absolute;
+        top: 53%;
+        display: flex;
+      }
+    .btnCourses {
+        width: 150px;
+        height: 50px;
+        background: rgba(255, 255, 255, 0.13);
+        border-radius: 12px;
+        border: none;
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: black;
+      }
+    .textTitleCourses {
+        position: absolute;
+        top: 545px;
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 87px;
+        text-align: center;
+        color: black;
+      }
+    #firstCard {
+        position: absolute;
+        top: 780px;
+        margin-bottom: 400px;
+      }
+    .card{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        background: rgba(255, 255, 255, 0.79);
+        box-shadow: 0px 0px 40px -6px rgba(0, 0, 0, 0.09);
+        backdrop-filter: blur(12.5px);
+        border-radius: 20px;
+        width: 80%;
+    }
+}
+/* ///phone */
+
+@media only screen and (max-width: 600px) {
+  
+    .containerBtnsCourses {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        margin-top: 300px;
+        width: 50%;
+      }
+    .card {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background: rgba(255, 255, 255, 0.79);
+        box-shadow: 0px 0px 40px -6px rgba(0, 0, 0, 0.09);
+        backdrop-filter: blur(12.5px);
+        border-radius: 20px;
+        width: 100%;
+      }
+      .dayWeek {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        box-sizing: border-box;
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 29.2349px;
+        line-height: 36px;
+        color: #7cb92f;
+        background: #ffffff;
+        border: 0.790134px solid #f3f3f3;
+        box-shadow: 0px 1.58027px 23.704px -4.7408px rgba(0, 0, 0, 0.09);
+        border-radius: 13.4323px;
+        width: 100%;
+        height: 100%;
+        padding-top: 20%;
+      }
+      #firstCard {
+        position: relative;
+        margin-bottom: 31%;
+    }
+      .cccc {
+        margin-top: 400px;
+        position: static;
+        display: flex;
+        justify-content: center;
+        justify-self: center;
+        flex-direction: column;
+      }
+      .textTitleCourses {
+        position: relative;
+      
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 87px;
+        text-align: center;
+        /* color: white; */
+        color: black;
+
+      }
+      .btnCourses {
+        margin-left: 55%;
+        height: 50px;
+        background: rgba(255, 255, 255, 0.13);
+        border-radius: 12px;
+        border: none;
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 20px;
+        color: black;
+      }
+      .containerHeader{
+        display: flex;
+        flex-direction: column;
+      }
+      .nameLesson {
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 43px;
+        color: #363734;
+        margin-right: 5px;
+      }
+}

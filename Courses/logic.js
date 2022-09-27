@@ -1,7 +1,9 @@
 const coll = document.querySelectorAll(".collapsible");
 const btnSend = document.querySelector(".btnSend");
 const inputName = document.querySelector(".inputName");
+
 const checkPrivacyPolicy = document.querySelector("#checkPrivacyPolicy");
+
 
 for (let i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function () {
@@ -21,6 +23,6 @@ inputName.addEventListener("keydown", (e) => {
 
 btnSend.addEventListener("click", () => {
   if (!checkPrivacyPolicy.checked) return;
-
+  alert(true)
 });
-//
+

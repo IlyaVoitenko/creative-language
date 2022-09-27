@@ -27,6 +27,9 @@
 .blogPost {
   width: 100%;
 }
+*{
+  margin: 0;
+}
 .dataCteatedPost {
   font-family: "Gilroy";
   font-style: normal;

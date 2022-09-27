@@ -1,7 +1,7 @@
 /* ///Header */
 .btnHeader {
   border: none;
-  height: 40px;
+  height: 45px;
   width: 8%;
 }
 .backgroundHeader{
@@ -10,6 +10,11 @@
 }
 .numberPhone {
   font-size: 10px;
+  width: 9%;
+}
+.lessonComplex{
+  font-size: 13px;
+  width: 18%;
 }
 .containerBtnCallBack {
   display: flex;
@@ -42,7 +47,7 @@
   height: 30px;
   margin-left: 5px;
   border-radius: 50%;
-  margin-top: 5px;
+  margin-top: 0px;
 }
 .imgBtnCallBack {
   width: 15px;
@@ -57,7 +62,7 @@
   border: none;
   border-radius: 0px 50px 50px 0px;
   width: 180px;
-  height: 40px;
+  height: 45px;
 }
 .btns {
   display: flex;
@@ -173,7 +178,7 @@
   margin-left: 10px;
   width: 100px;
   color: #8db92f;
-  font-family: "Fredoka";
+  font-family: sans-serif;
   font-style: normal;
   font-size: 40px;
   border: 1.99708px solid #ffffff;
@@ -186,14 +191,12 @@
   padding-top: 5px;
 }
 .containerListPagesFooter {
-  width: 40%;
-  margin-left: 10%;
-  height: 200px;
-}
-.containerListPagesFooter {
   display: flex;
   flex-direction: row;
   padding-left: 30px;
+  width: 40%;
+  margin-left: 10%;
+  height: 200px;
 }
 .emailFooter {
   display: flex;
@@ -320,6 +323,13 @@
   }
   .containerBtnCallBack {
     margin-left: 10%;
+  }
+  .containerListPagesFooter {
+    display: flex;
+    justify-content: start;
+    justify-items: start;
+    width: 40%;
+    margin-left: 0%;
   }
 }
 
