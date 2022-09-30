@@ -9,28 +9,46 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="Header">
-      <div class="nameCompany">Creative Lingua Planet</div>
+    <div class="Header" id="positionHeader">
+      <div class="nameCompany">
+        Creative Lingua Planet
+
+      </div>
       <div class="btns">
-        <button class="btnHeader firstBtn backgroundHeader">Наша команда</button>
-        <button class="btnHeader numberPhone backgroundHeader">
-          Навчально-методичний комплекс
+        <button class="btnHeader firstBtn backgroundHeader">
+          <a href="./index.html" class="headerLink">
+            Наша команда
+          </a>
         </button>
-        <button class="btnHeader backgroundHeader">Відгуки</button>
-        <button class="btnHeader backgroundHeader">Вартість</button>
-        <button class="btnHeader backgroundHeader">Контакти</button>
+        <button class="btnHeader lessonComplex backgroundHeader">
+          <a href="../Courses/index.html" class="headerLink">
+            Навчально-методичний комплекс
+          </a>
+        </button>
         <button class="btnHeader backgroundHeader">
-          <a href="https://creativelinguaplanet.com/?page_id=12">FAQ</a>
+          <a href="#" class="headerLink">Відгуки</a>
         </button>
-        <button class="btnHeader numberPhone backgroundHeader">+38 (098) 913-60-97</button>
+        <button class="btnHeader backgroundHeader">
+          <a href="#" class="headerLink">Вартість</a>
+        </button>
+        <button class="btnHeader backgroundHeader">
+          <a href="#" class="headerLink">Контакти</a>
+        </button>
+        <button class="btnHeader backgroundHeader">
+          <a
+            href="../FAQ/index.html"
+            class="headerLink"
+            >FAQ</a
+          >
+        </button>
+        <button class="btnHeader numberPhone backgroundHeader">
+          +38 (098) 913-60-97
+        </button>
         <button class="containerCallBack btnHeader backgroundHeader">
           <div class="containerBtnCallBack">
             <div class="containerImgHeader">
               <div class="img">
-                <img
-                class="imgBtnCallBack"
-                src="../imgs/phone4.png"
-              />
+                <img class="imgBtnCallBack" src="../imgs/phone4.png" />
               </div>
             </div>
             <div class="text">Перезвоните мне</div>
@@ -254,36 +272,39 @@
       </div>
       <div class="formCheckin">
         <div>
-          <h3 id="formH5">Не знайшли потрібного питання ?</h3>
-          <h1 id="formH4">Запитайте в нас !</h1>
-          <div id="formSpan">
-            Якщо ви не знайшли відповідь на своє запитання - напишіть нам. Ми
-            якнайшвидше постараємося відповісти на нього.
-          </div>
-          <div class="formFields">
-            <div class="containerfields">
-              <textarea placeholder="Сообщение" id="fieldMessage"></textarea>
+          <div class="form">
+            <h3 id="formH5">Не знайшли потрібного питання ?</h3>
+            <h1 id="formH4">Запитайте в нас !</h1>
+            <div id="formSpan">
+              Якщо ви не знайшли відповідь на своє запитання - напишіть нам. Ми
+              якнайшвидше постараємося відповісти на нього.
             </div>
-            <div class="containerfields">
-              <input type="text" class="inputName" placeholder="Имя" />
-              <input type="text" class="inputEmail" placeholder="Email" />
+            <div class="formFields">
+              <div class="containerfields">
+                <textarea placeholder="Опишіть питання" id="fieldMessage"></textarea>
+              </div>
+              <div class="containerfields">
+                <input type="text" class="inputName" placeholder="Як вас звати" />
+                <input type="text" class="inputEmail" placeholder="Ваш e-mail" />
+              </div>
             </div>
-          </div>
-          <div class="containerSendMessage">
-            <p>recapcha</p>
-            <br />
-            <div  class="containerCheckBox">
-              <input type="checkbox" id="checkPrivacyPolicy" />
-              <span class="spanPrivacyPolicy">
-                Я ознайомився(-лась) з
-                <a id="linkPrivacyPolicy" href="#"
-                  >політикою конфіденційності</a
+            <div class="containerSendMessage">
+              <p>recapcha</p>
+              <br />
+              <div  class="containerCheckBox">
+                <input type="checkbox" id="checkPrivacyPolicy" />
+                <span class="spanPrivacyPolicy">
+                  Я ознайомився(-лась) з
+                  <a id="linkPrivacyPolicy" href="#"
+                    >політикою конфіденційності</a
+                  >
+                  даю свій дозвіл на обробку моїх персональних даних.</span
                 >
-                даю свій дозвіл на обробку моїх персональних даних.</span
-              >
-            </div>
-            <br />
-            <button class="btnSend">Надіслати</button>
+              </div>
+              <br />
+              <button class="btnSend">Надіслати <img src="../imgs/SendImg.png"></button>
+          </div>
+        
           </div>
           <div class="containerCallBackData">
             <span id="textContacts1"
