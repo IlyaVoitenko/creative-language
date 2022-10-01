@@ -7,11 +7,7 @@
   display: flex;
   flex-direction: row;
 }
-#checkPrivacyPolicy {
-  background: #ffffff;
-  border-radius: 4px;
-  border: none;
-}
+
 .containerInfoCards {
   width: 70%;
 }
@@ -159,9 +155,7 @@
 .linkCapcha {
   color: #7cb92f;
 }
-#linkPrivacyPolicy {
-  color: #7cb92f;
-}
+
 .btnSend {
   border: none;
   border-radius: 5px;

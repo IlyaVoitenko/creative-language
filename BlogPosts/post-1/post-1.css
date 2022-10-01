@@ -1,69 +1,6 @@
-.conteinetPost {
-  margin-top: 100px;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  width: 66%;
-  margin-top: 5px;
-}
-.imgScan{
-  width: 12px;
-  height: 10px;
-  padding-top: 17px;
-  padding-right: 5px;
-}
-.containerCreatedInfoPost{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.amoundScan{
-  display: flex;
-  flex-direction: row;
-}
-.scans{
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 20px;
-  color: #a3abb0;
-}
-.containerInfoAboutPost{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 1%;
-}
-.greenTextColor{
-  font-family: 'Gilroy';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  color: #757676;
-}
+
 .firstblogPost {
   margin-top: 5px;
-}
-.imgNetworks {
-  width: 10px;
-  height: 11px;
-}
-.btnImgNetworks {
-  border: none;
-  background-color: #ffffff;
-}
-.containerBtnsNetworks >*{ 
-margin-left: 10px;
-}
-.mainTitlePost {
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 50px;
-  line-height: 55px;
-  color: #2e3230;
 }
 .line {
   width: 70%;
@@ -71,32 +8,12 @@ margin-left: 10px;
   background-color: #dddfe1;
   border: none;
 }
-.textEndThePost {
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 27px;
-  color: #464646;
-}
 .containerNameCountry {
   position: absolute;
   top: 3630px;
 }
-.containerRecommendedPosts {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  margin: auto;
-  width: 70%;
-  margin-bottom: 3%;
-}
 .blogPost {
   width: 200px;
-}
-.listRecommendedPosts {
-  display: flex;
-  flex-direction: row;
 }
 .anotherPosts {
   width: 20%;
@@ -153,14 +70,6 @@ a {
   line-height: 20px;
   color: #2e3230;
 }
-.titleRecommendedPosts {
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 27px;
-  color: #2e3230;
-}
 .containerNameCountry {
   display: flex;
   flex-direction: row;
@@ -170,19 +79,6 @@ a {
   backdrop-filter: blur(10px);
   border-radius: 10px;
 }
-.endThePost {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
-  width: 70%;
-  margin-left: 15%;
-}
-.imgPost {
-  width: 70%;
-  border-radius: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
 .nameCountry {
   padding-top: 5px;
   padding-left: 5px;
@@ -190,26 +86,6 @@ a {
 .imgBlog {
   width: 100%;
   border-radius: 20px;
-}
-.positionMailFlag {
-  position: absolute;
-  top: 30%;
-  left: 20%;
-}
-.descriptionPathBlog {
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 20px;
-  color: #848987;
-}
-.mailPageText {
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 20px;
 }
 .contentText {
   font-family: "Gilroy";
@@ -220,14 +96,7 @@ a {
   /* or 169% */
   color: #2e3230;
 }
-.titlePost {
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 27px;
-  color: #2e3230;
-}
+
 #firstPostLink {
   width: 82%;
 }
