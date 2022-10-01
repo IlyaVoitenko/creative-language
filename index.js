@@ -1,10 +1,8 @@
     let box=document.getElementsByClassName('itemBlog');
     let btn=document.getElementById('buttonShow');
-
     for (let i=7;i<box.length;i++) {
         box[i].style.display = "none";
     }
-
     let countD =7;
     btn.addEventListener("click", function() {
         let box=document.getElementsByClassName('itemBlog');
@@ -21,3 +19,4 @@
             return
         }
     })
+    

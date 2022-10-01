@@ -10,7 +10,7 @@
 .containerSelectLanguageHeader {
   position: absolute;
   top: 5px;
-  left: 95%;
+  left: 93%;
   display: flex;
   justify-content: end;
   border: none;
@@ -105,7 +105,7 @@
 }
 
 .Header {
-  margin-left: 20%;
+  margin-left: 15%;
   background: #fbfbfb;
 }
 /*////////*/
@@ -216,7 +216,7 @@
   text-align: center;
   color: #363734;
 }
-.titlePage{
+.titlePage {
   text-align: center;
   background: #f7f7f7;
   padding-top: 2%;
@@ -674,7 +674,376 @@
     margin-right: 5%;
   }
 }
+/* /// page Comments */
 
+.containerVideos{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.itemVideo{
+  margin-top: 2%;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+.titleCenter {
+  text-align: center;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  margin-top: 2%;
+  color: #363734;
+}
+.btnShowComments {
+  background: linear-gradient(180deg, #a6e25a 0%, #7cb92f 100%);
+  border-radius: 13px;
+  height: 48px;
+  width: 15%;
+  color: white;
+  border: none;
+}
+.containerBtnShowComments {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+.dataCreatedComment {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  color: #acacac;
+}
+.commentSizeTextReverse {
+  font-size: 12px;
+  width: 85%;
+  height: 100%;
+  margin-top: 1%;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+body {
+  background-color: #f7f7f7;
+}
+.rating {
+  width: 100px;
+}
+.infoClientReverse {
+  position: absolute;
+  left: 2%;
+}
+.commentAvatarAuthorReverse {
+  width: 132px;
+  height: 120px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-top: 3%;
+  position: absolute;
+  border: 10px solid #f7f7f7;
+  left: 8%;
+}
+.imgAvatarReverse {
+  width: 100%;
+}
+.textBorderReverse {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #3c3c3c;
+  margin-top: 2%;
+  width: 90%;
+  padding-left: 7%;
+}
+.containerCommentReverse {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #f7f7f7;
+}
+.nameUserReverse {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 16px;
+  color: #2e3230;
+}
+.commentSizeText {
+  font-size: 12px;
+  width: 80%;
+  margin-top: 1%;
+  margin-left: 20px;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+body {
+  background-color: #f7f7f7;
+}
+.rating {
+  width: 10px;
+}
+.infoClient {
+  position: absolute;
+  left: 85%;
+}
+.commentAvatarAuthor {
+  width: 130px;
+  height: 120px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-top: 3%;
+  position: absolute;
+  border: 10px solid #f7f7f7;
+  left: 77%;
+}
+.imgAvatar {
+  width: 100%;
+}
+.textBorder {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #3c3c3c;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-left: 3%;
+  width: 90%;
+}
+.containerComments {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+}
+.nameUser {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 16px;
+  color: #2e3230;
+}
+.comment {
+  display: flex;
+  flex-direction: row;
+}
+.commentReverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+/*phone*/
+@media screen and (min-width: 320px) and (max-width: 764px) {
+  .commentSizeTextReverse {
+    font-size: 12px;
+    width: 80%;
+    margin-top: 1%;
+    height: 1000px;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+  .commentAvatarAuthorReverse {
+    width: 88px;
+    height: 88px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 4.5%;
+    position: absolute;
+    border: 10px solid #f7f7f7;
+    left: 0%;
+  }
+  .infoClientReverse {
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    width: 70px;
+  }
+  .ratingReverse {
+    width: 20px;
+  }
+  .infoClientReverse {
+    position: absolute;
+    left: 5%;
+  }
+  .textBorderReverse {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #3c3c3c;
+    margin-top: 2%;
+    width: 90%;
+    padding-left: 7%;
+    text-align: end;
+  }
+  .commentSizeText {
+    width: 75%;
+    margin-top: 1%;
+    margin-left: 20px;
+    height: 10%;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+  .nameUser {
+    margin-left: 15%;
+  }
+  .infoClient {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 80%;
+    width: 65px;
+    margin-top: 35%;
+  }
+
+  .rating {
+    width: 20px;
+    position: relative;
+    margin-left: 35%;
+  }
+  .commentAvatarAuthor {
+    width: 90px;
+    height: 86px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 4.5%;
+    position: absolute;
+    border: 10px solid #f7f7f7;
+    left: 70%;
+  }
+  .infoClient {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .infoClientReverse {
+    position: absolute;
+    margin-top: 6%;
+    width: 100px;
+  }
+  .ratingReverse {
+    position: relative;
+    display: flex;
+    width: 100px;
+    padding-top: 5px;
+  }
+  .infoClient {
+    position: absolute;
+    left: 88%;
+    margin-top: 5%;
+    width: 100px;
+  }
+  .rating {
+    position: relative;
+    display: flex;
+    width: 100px;
+    padding-top: 5px;
+  }
+}
+/* ///tablets */
+@media screen and (min-width: 764px) and (max-width: 1024px) {
+  .commentAvatarAuthorReverse{
+    width: 90px;
+    height: 86px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 3%;
+    position: absolute;
+    border: 10px solid #f7f7f7;
+    left: 13%;
+  }
+  body{
+    background-color: royalblue;
+  }
+  .textBorderReverse{
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #3c3c3c;
+    margin-top: 2%;
+    width: 90%;
+    padding-left: 7%;
+    text-align: end;
+  }
+  .commentSizeText {
+    font-size: 12px;
+    width: 80%;
+    height: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color:#ffffff 
+  }
+  .commentSizeTextReverse {
+    font-size: 12px;
+    width: 80%;
+    margin-top: 1%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+  .containerComments >div{
+    margin-top: 5%;
+  }
+  .ratingReverse {
+    width: 20px;
+  }
+  .infoClientReverse {
+    position: absolute;
+    margin-top: 7%;
+    width: 100px;
+  }
+  .ratingReverse {
+    position: relative;
+    display: flex;
+    width: 100px;
+    padding-top: 5px;
+  }
+  .commentAvatarAuthor {
+    width: 90px;
+    height: 86px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 4.5%;
+    position: absolute;
+    border: 10px solid #f7f7f7;
+    left: 75%;
+  }
+  .infoClient {
+    position: absolute;
+    left: 88%;
+    margin-top: 7%;
+    width: 100px;
+  }
+  .rating {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+/* ////// */
 /* ///// page PriceCourses */
 .containerPriceCoursesPage {
   display: flex;
@@ -708,23 +1077,23 @@
   text-align: center;
   color: #7cb92f;
 }
-.containerCardImgCountry  {
+.containerCardImgCountry {
   position: relative; /*Parent MUST be relative*/
   z-index: 9;
   background: #ffffff;
-  width:100%;
-  height:68px;
-  }
-  .containerCardImgCountry:before {
+  width: 100%;
+  height: 68px;
+}
+.containerCardImgCountry:before {
   content: "";
-  position: absolute;/*set 'child' to be absolute*/
+  position: absolute; /*set 'child' to be absolute*/
   z-index: -1; /*Make this lower so text appears in front*/
-  top: 0; 
-  right:0;
+  top: 0;
+  right: 0;
   bottom: 60%;
   left: 0;
-  background: #F7F7F7;
-  }
+  background: #f7f7f7;
+}
 .cardImgCountry {
   width: 70px;
   height: 48px;
@@ -777,15 +1146,14 @@
   padding-left: 2%;
   color: white;
   margin-top: 2%;
-
 }
-.spanPrivacyPolicy{
-  font-family: 'Gilroy';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-color: #B6B6B6;
+.spanPrivacyPolicy {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #b6b6b6;
 }
 .containerCheckBox {
   padding-left: 7%;
@@ -874,9 +1242,9 @@ color: #B6B6B6;
   border: none;
   background-color: #ffffff;
 }
-.containerBtnsNetworks >*{ 
+.containerBtnsNetworks > * {
   margin-left: 10px;
-  }
+}
 .mainTitlePost {
   font-family: "Gilroy";
   font-style: normal;
@@ -962,22 +1330,22 @@ color: #B6B6B6;
   width: 66%;
   margin-top: 5px;
 }
-.imgScan{
+.imgScan {
   width: 12px;
   height: 10px;
   padding-top: 17px;
   padding-right: 5px;
 }
-.containerCreatedInfoPost{
+.containerCreatedInfoPost {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.amoundScan{
+.amoundScan {
   display: flex;
   flex-direction: row;
 }
-.scans{
+.scans {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
@@ -985,14 +1353,14 @@ color: #B6B6B6;
   line-height: 20px;
   color: #a3abb0;
 }
-.containerInfoAboutPost{
+.containerInfoAboutPost {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 1%;
 }
-.greenTextColor{
-  font-family: 'Gilroy';
+.greenTextColor {
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
