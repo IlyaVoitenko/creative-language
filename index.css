@@ -4,6 +4,14 @@
   height: 45px;
   width: 8%;
 }
+.containerInfoCards {
+  width: 70%;
+}
+.mainContainer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
 .containerButtonShow {
   display: flex;
   justify-content: center;
@@ -597,6 +605,22 @@
 
 /* ///phone */
 @media only screen and (max-width: 600px) {
+  .formCheckin {
+    background: #f3f3f3;
+    border-radius: 25px;
+    display: flex;
+    width: 100%;
+  }
+  
+  .containerInfoCards {
+    width: 100%;
+  }
+  .mainContainer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
   .emailFooter {
     padding-right: 45%;
     margin-top: 10px;
@@ -675,6 +699,22 @@
 
 /* ///tablets */
 @media only screen and (min-width: 600px) and (max-width: 1025px) {
+  .mainContainer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+  .containerInfoCards {
+    width: 100%;
+  }
+
+  .formCheckin {
+    background: #f3f3f3;
+    border-radius: 25px;
+    display: flex;
+    width: 100%;
+  }
   .btnHeader {
     background-color: rgba(215, 254, 175, 0.772);
     border: none;
