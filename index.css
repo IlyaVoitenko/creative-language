@@ -3052,17 +3052,17 @@ body {
   background-color: #f6f6f6;
 }
 @media only screen and (min-width: 600px) and (max-width: 1025px) {
-  .containerLaptopImg{
+  .containerLaptopImg {
     margin-top: 7%;
     width: 90%;
     border-radius: 20px;
     margin-left: 5%;
   }
-  .sizeImageTeanPageMedia{
+  .sizeImageTeanPageMedia {
     width: 32%;
     height: 50%;
   }
-  .imgCardTeamPage{
+  .imgCardTeamPage {
     width: 20%;
   }
   #textSizeMedia {
@@ -3072,7 +3072,7 @@ body {
     height: 258px;
     margin-bottom: 4%;
   }
-  .containerTextSmallWidth{
+  .containerTextSmallWidth {
     width: 88%;
   }
   .containerFirstImgTeamPage {
@@ -3095,7 +3095,7 @@ body {
   .fullWeidthMedia {
     width: 100%;
   }
-  .sizeTextSmallMedia{
+  .sizeTextSmallMedia {
     font-size: 14px;
   }
   .fullHeightMedia {
@@ -3214,7 +3214,7 @@ body {
   .fullWeidthMedia {
     width: 100%;
   }
-  .sizeTextSmallMedia{
+  .sizeTextSmallMedia {
     font-size: 14px;
   }
   .fullHeightMedia {
@@ -3302,6 +3302,404 @@ body {
   }
   .m-bottomMedia {
     margin-bottom: 5%;
+  }
+}
+/* ///// */
+
+/* //// main page */
+.textTitleHeader {
+  width: 40%;
+  position: absolute;
+  top: 35%;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: black;
+}
+.btnMainHeader {
+  width: 100px;
+  height: 58px;
+  background: rgba(255, 255, 255, 0.13);
+  border-radius: 12px;
+  border: none;
+  border: 3px solid #ffffff;
+  border-radius: 11px;
+}
+.btnMainHeader > img {
+  height: 100%;
+  width: 100%;
+}
+.j-space-around{
+  display: flex;
+justify-content: space-around;
+}
+#btnUkraine {
+  transform: rotate(-46.41deg);
+  position: absolute;
+  margin-top: 15%;
+  left: 15%;
+
+}
+#btnChina {
+  transform: rotate(-35.35deg);
+  position: absolute;
+left: 22%;
+  margin-top: 9%;
+}
+#btnBritan {
+  transform: rotate(-22.78deg);
+  position: absolute;
+  left: 29.5%;
+  margin-top: 5%;
+}
+#btnFrance {
+  transform: rotate(-11.49deg);
+  position: absolute;
+  left: 38%;
+  margin-top: 2%;
+}
+#btnPoland {
+  position: absolute;
+  margin-top: 1%;
+  left: 47%;
+
+}
+#btnItaly {
+  transform: rotate(11.68deg);
+  position: absolute;
+  margin-top: 2%;
+  left: 56%;
+}
+#btnSpain {
+  transform: rotate(22.32deg);
+  position: absolute;
+  margin-top: 5%;
+  left: 65%;
+}
+#btnGermany {
+  transform: rotate(34.23deg);
+  position: absolute;
+  margin-top: 10%;
+  left: 73%;
+}
+#btnR {
+  transform: rotate(48.01deg);
+  position: absolute;
+  margin-top: 16%;
+  left: 80%;
+}
+.imgEarth {
+  position: absolute;
+  left: 6%;
+  width: 90%;
+  height: 50%;
+  margin-top: 20.3%;
+}
+.textMainHeaderLanguage {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  padding-top: 5%;
+  line-height: 20px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.containerBtnsMainHeader {
+  width: 90%;
+  position: absolute;
+  top: 48%;
+  display: flex;
+  justify-content: space-around;
+}
+.borderNone{
+  border: none;
+  background:transparent
+}
+#headerMainNetworkText{
+  font-family: 'Futura PT';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 14px;
+letter-spacing: 0.3em;
+text-transform: uppercase;
+color: #FFFFFF;
+transform: rotate(90deg);
+}
+.w-1{
+width: 1%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.networksMainPage{
+  position: absolute;
+  top: 60%;
+  left: 2%;
+}
+.imgNetworksMainPage{
+  width: 10px;
+  height: 15px;
+}
+@media only screen and (min-width: 600px) and (max-width: 1025px) {
+  #headerMainNetworkText{
+      font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(0deg);
+  }
+  .networksMainPage{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 2%;
+    left: 12%;
+  }
+  .textMainHeaderLanguage{
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 9px;
+    padding-top: 5%;
+    line-height: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .containerMainHeaderTitleAndBtns{
+    margin-top: 40%;
+  }
+  .textTitleHeader{
+      width: 40%;
+      position: absolute;
+      top: 50%;
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: black;
+  }
+  .imgEarth{
+    display: none;
+  }
+  .btnMainHeader {
+    width: 10%;
+    height: 58px;
+    background: rgba(255, 255, 255, 0.13);
+    border-radius: 12px;
+    border: none;
+  }
+  #btnUkraine {
+    transform: rotate(0deg);
+    position: static;
+    margin-top: 0%;
+  }
+  #btnChina {
+    transform: rotate(0deg);
+    position: static;
+    margin-top: 0%;
+
+  }
+  #btnBritan {
+    transform: rotate(0deg);
+    position: static;
+    margin-top: 0%;
+
+  }
+  #btnFrance {
+    transform: rotate(0deg);
+    margin-top: 0%;
+    position: static;
+  }
+  #btnPoland {
+    transform: rotate(0deg);
+    position: static;
+    margin-top: 0%;
+  }
+  #btnItaly {
+    transform: rotate(0deg);
+    position: static;
+    margin-top: 0%;
+
+  }
+  #btnSpain {
+    transform: rotate(0deg);
+    position: static;
+    margin-top: 0%;
+
+  }
+  #btnGermany {
+    transform: rotate(0deg);
+    position: static;
+    margin-top: 0%;
+
+  }
+  #btnR {
+    transform: rotate(0deg);
+    position: static;
+    margin-top: 0%;
+
+  }
+  /* .imgEarth {
+    position: static;
+    left: 10%;
+    width: 80%;
+    height: 50%;
+    margin-top: 20.3%;
+  } */
+  .containerBtnsMainHeader {
+    width: 90%;
+    position: static;
+    top: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #headerMainNetworkText{
+    font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transform: rotate(0deg);
+}
+.networksMainPage{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 2%;
+  left: 32%;
+}
+  .textMainHeaderLanguage{
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 9px;
+    padding-top: 5%;
+    line-height: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  .containerMainHeaderTitleAndBtns{
+    position: absolute;
+    top: 90%;
+  }
+  .btnMainHeader > img {
+    height: 45%;
+    width: 100%;
+}
+
+  .textTitleHeader{
+      width: 100%;
+      position: absolute;
+      top: 100%;
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: black;
+  }
+  .imgEarth{
+    display: none;
+  }
+  .btnMainHeader {
+    width: 10%;
+    height: 58px;
+    background: rgba(255, 255, 255, 0.13);
+    border-radius: 12px;
+    border: none;
+  }
+  #btnUkraine {
+    transform: rotate(0deg);
+    position: static;
+    margin-top: 0%;
+  }
+  #btnChina {
+    transform: rotate(0deg);
+    position: static;
+    margin-top: 0%;
+
+  }
+  #btnBritan {
+    transform: rotate(0deg);
+    position: static;
+    margin-top: 0%;
+
+  }
+  #btnFrance {
+    transform: rotate(0deg);
+    margin-top: 0%;
+    position: static;
+  }
+  #btnPoland {
+    transform: rotate(0deg);
+    position: static;
+    margin-top: 0%;
+  }
+  #btnItaly {
+    transform: rotate(0deg);
+    position: static;
+    margin-top: 0%;
+
+  }
+  #btnSpain {
+    transform: rotate(0deg);
+    position: static;
+    margin-top: 0%;
+
+  }
+  #btnGermany {
+    transform: rotate(0deg);
+    position: static;
+    margin-top: 0%;
+
+  }
+  #btnR {
+    transform: rotate(0deg);
+    position: static;
+    margin-top: 0%;
+
+  }
+  .containerBtnsMainHeader > .btnMainHeader{
+    margin-left: 15%;
+  }
+  .containerBtnsMainHeader {
+    width: 86%;
+    position: static;
+    top: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 }
 /* ///// */
