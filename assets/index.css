@@ -4,6 +4,63 @@
   height: 45px;
   width: 8%;
 }
+.widthCard-90{
+  width: 90%;
+  padding-bottom: 2%;
+}
+.textContentTeamPage{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+color: #363734;
+}
+#textLeft{
+  text-align: left;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+color: #363734;
+}
+#heightCard{
+  height: 240px;
+}
+.widthCard{
+width: 80%;
+}
+#titleTeamPage{
+  width: 60%;
+}
+.indention{
+  width: 80%;
+  margin: auto;
+}
+.backgroundColorHeader{
+  background: rgba(147, 219, 57, 0.28);
+}
+#btnCallHeader{
+  background: #93DB39;
+}
+#displayNone{
+  display: none;
+}
+.nameCompany{
+  display: flex;
+  justify-content: center;
+}
+.headerCallBackText{
+  font-family: 'Futura PT';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+height: 99%;
+}
 .containerCallBackData {
   display: flex;
   flex-direction: column;
@@ -239,8 +296,8 @@
 }
 .containerSelectLanguageHeader {
   position: absolute;
-  top: 5px;
-  left: 93%;
+  top: 6%;
+  left: 95%;
   display: flex;
   justify-content: end;
   border: none;
@@ -253,14 +310,21 @@
 }
 .selectLanguageHeader {
   border: none;
-  width: 48px;
-  height: 48px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(5.5px);
   border-radius: 29px;
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #242424;
 }
-
 .p-top {
   margin-top: 5px;
 }
@@ -269,7 +333,7 @@
   background: rgba(147, 219, 57, 0.13);
 }
 .numberPhone {
-  font-size: 10px;
+  font-size: 13px;
   width: 9%;
 }
 .lessonComplex {
@@ -278,7 +342,8 @@
 }
 .containerBtnCallBack {
   display: flex;
-  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .text {
@@ -286,13 +351,12 @@
   width: 200px;
   padding-top: 5%;
   padding-right: 5%;
-  background-color: rgb(155, 206, 104);
   border-radius: 0px 21px 21px 0px;
+  height: 30px;
 }
 .nameCompany {
   color: #8db92f;
-  font-size: 95px;
-  padding-top: 20px;
+  font-size: 113px;
   font-weight: 600;
   font-family: "Fredoka", sans-serif;
   margin: 0px 0px;
@@ -307,11 +371,9 @@
   height: 30px;
   margin-left: 5px;
   border-radius: 50%;
-  margin-top: 0px;
 }
 .imgBtnCallBack {
   width: 15px;
-  margin-top: 7px;
 }
 .callBack {
   height: 40px;
@@ -327,15 +389,27 @@
 .btns {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+    width: 100%;
 }
 .containerImgHeader {
-  background-color: rgb(155, 206, 104);
-  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 20px 0px 0px 20px;
+  height: 38px;
 }
-
+.containerImgHeader> div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .Header {
-  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
   background: #fbfbfb;
 }
 /*////////*/
@@ -605,8 +679,8 @@
     border: none;
     border-radius: 0px 0px 0px 0px;
     width: 100%;
-    height: 60px;
-  }
+    height: 58px;
+    }
   .text {
     width: 27%;
     padding-top: 4%;
@@ -2521,7 +2595,7 @@ body {
 }
 
 #positionHeader {
-  top: 5%;
+  top: 1%;
   position: absolute;
   background-color: none;
 }
@@ -2706,6 +2780,14 @@ body {
   text-align: center;
   color: #3c3c3c;
 }
+.backgroundHeaderMainPage{
+  background: rgba(255, 255, 255, 0.15);
+backdrop-filter: blur(5.5px);
+}
+.backgroundHeaderMainPageCallBack{
+background: rgba(255, 255, 255, 0.28);
+backdrop-filter: blur(3.5px);
+}
 .backgroundHeaderCoueses {
   background: rgba(255, 255, 255, 0.51);
   backdrop-filter: blur(5.5px);
@@ -2714,7 +2796,7 @@ body {
   background: none;
 }
 .imgHeader {
-  width: 86%;
+  width: 83%;
 }
 .textTitleCourses {
   position: absolute;
@@ -2949,7 +3031,6 @@ body {
 }
 #lineCenterTeamPage {
   padding-top: 6%;
-  margin-left: 3%;
 }
 .m-r {
   margin-top: 1%;
@@ -3016,9 +3097,7 @@ body {
 .containerLaptopImg {
   margin-top: 7%;
   height: 400px;
-  width: 90%;
   border-radius: 20px;
-  margin-left: 5%;
 }
 .textCardTeamPageAlignNone {
   font-family: "Gilroy";
@@ -3057,11 +3136,12 @@ body {
 }
 .textTitleTeamPage {
   display: flex;
-  align-items: center;
+  justify-content: start;
+  padding-top: 6%;
   font-family: "Gilroy";
   font-style: normal;
-  font-weight: 700;
-  font-size: 63px;
+  font-weight: 900;
+  font-size: 50px;
   line-height: 78px;
   color: #363734;
 }
@@ -3513,9 +3593,9 @@ body {
 
 /* //// main page */
 .textTitleHeader {
-  width: 40%;
+  width: 33%;
   position: absolute;
-  top: 35%;
+  top: 30%;
   font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -3525,8 +3605,8 @@ body {
   color: black;
 }
 .btnMainHeader {
-  width: 100px;
-  height: 58px;
+  width: 90px;
+  height: 40px;
   background: rgba(255, 255, 255, 0.13);
   border-radius: 12px;
   border: none;
@@ -3587,13 +3667,13 @@ left: 22%;
 #btnGermany {
   transform: rotate(34.23deg);
   position: absolute;
-  margin-top: 10%;
+  margin-top: 9.5%;
   left: 73%;
 }
 #btnR {
   transform: rotate(48.01deg);
   position: absolute;
-  margin-top: 16%;
+  margin-top: 15.5%;
   left: 80%;
 }
 .imgEarth {
@@ -3647,12 +3727,12 @@ align-items: center;
 }
 .networksMainPage{
   position: absolute;
-  top: 60%;
+  top: 51%;
   left: 2%;
 }
 .imgNetworksMainPage{
   width: 10px;
-  height: 15px;
+  height: 12px;
 }
 @media only screen and (min-width: 600px) and (max-width: 1025px) {
   #headerMainNetworkText{
